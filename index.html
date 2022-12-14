@@ -1,19 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
-    <link rel="stylesheet" href="style.css">
-    <title>ページのタイトル</title>
-    <style>
-/*       body { background-color: khaki; } */
-    </style>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
-  </head>
-  <body>
-    <p>Hello HTML5!</p>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="style.css">
+  <title>ページのタイトル</title>
+  <style>
+    /* body {
+      background-color: khaki;
+    } */
+  </style>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+
+<body>
+  メモ：
+  <a href="https://watercss.kognise.dev/">https://watercss.kognise.dev/</a>
+  <h1>#lesson1</h1>
+  <div id="lesson1">
+    単一のリンク
+    <br />
+    <a href="./page1.html">Page1</a>
+  </div>
+  <h1>#lesson2</h1>
+  <div id="lesson2">
+    複数のリンク
+    <ul>
+      <li>
+        <a href="./page1.html">Page1</a>
+      </li>
+      <li>
+        <a href="./page2.html">Page2</a>
+      </li>
+      <li>
+        <a href="./page3.html">Page3</a>
+      </li>
+    </ul>
+  </div>
+  <h1>#lesson3</h1>
+  <div id="lesson3">
+    リスト
+    <ul>
+      <li>テキスト１</li>
+      <li>テキスト２</li>
+      <li>テキスト３</li>
+    </ul>
+  </div>
+
+  <h1>#lesson4</h1>
+  <div id="lesson4">
+    テーブル
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Godzilla</td>
+          <td>2</td>
+          <td>$299.99</td>
+        </tr>
+        <tr>
+          <td>Mozilla</td>
+          <td>10</td>
+          <td>$100,000.00</td>
+        </tr>
+        <tr>
+          <td>Quesadilla</td>
+          <td>1</td>
+          <td>$2.22</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h1>メモ：サンプルコード</h1>
+  <div id="sample">
     <script>
-      document.write('Goodbye!');
+      document.write('<p>JavaScriptで動的に生成したテキスト</p>');
     </script>
-  </body>
+  </div>
+</body>
+
 </html>
